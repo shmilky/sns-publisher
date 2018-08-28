@@ -1,0 +1,22 @@
+{
+  "name": "sns-topic-message-publisher",
+  "version": "0.0.1",
+  "main": "./bin/index.js",
+  "dependencies": {
+    "auto-package-publish": "1.0.4",
+    "aws-sdk": "2.302.0",
+    "aws-sns-publish": "3.2.0",
+    "babel-core": "6.24.0",
+    "babel-loader": "6.4.1",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-preset-es2015": "6.24.1",
+    "bluebird": "3.5.0",
+    "case-sensitive-paths-webpack-plugin": "2.1.1",
+    "path": "0.12.7",
+    "webpack": "2.3.3"
+  },
+  "scripts": {
+    "auto-publish": "node ./publishPackage.js",
+    "compile": "webpack --config webpack.config.js"
+  }
+}
